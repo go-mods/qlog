@@ -1,9 +1,9 @@
 package log_test
 
 import (
-	log "github.com/go-mods/qlog"
-	"github.com/go-mods/qlog/console/colored"
-	"github.com/go-mods/qlog/console/plain"
+	log "github.com/go-mods/zerolog-quick"
+	"github.com/go-mods/zerolog-quick/console/colored"
+	"github.com/go-mods/zerolog-quick/console/plain"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/pkgerrors"
 	"gopkg.in/natefinch/lumberjack.v2"
