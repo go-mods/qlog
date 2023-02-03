@@ -18,7 +18,7 @@ var DateLevelMessage = zerolog.New(
 			zerolog.MessageFieldName,
 		},
 		FormatLevel: func(i interface{}) string {
-			return strings.ToUpper(fmt.Sprintf("[%s]", i))
+			return strings.ToUpper(fmt.Sprintf("[%-5s]", i))
 		},
 	},
 ).Level(zerolog.TraceLevel).With().Timestamp().Logger()
