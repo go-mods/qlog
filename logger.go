@@ -4,7 +4,7 @@ package log
 import (
 	"context"
 	"fmt"
-	"github.com/go-mods/qlog/json"
+	"github.com/go-mods/zerolog-quick/json"
 	"github.com/rs/zerolog"
 	"io"
 )
